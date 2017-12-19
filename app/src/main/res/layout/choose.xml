@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/nlogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:layout_below="@id/icon"
+        android:id="@+id/neart"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="N E A R - T"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/neart"
+            android:id="@+id/areyou"
+            android:layout_centerHorizontal="true"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:text="Are you a :"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"/>
+
+
+    <ImageButton
+        android:id="@+id/tutor"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/areyou"
+        android:layout_marginTop="34dp"
+        android:layout_toStartOf="@+id/icon"
+        android:background="@drawable/tutor" />
+
+    <TextView
+        android:id="@+id/tt"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tutor"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/areyou"
+        android:text="Tutor"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/tutee"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/tutor"
+        android:layout_toEndOf="@+id/icon"
+        android:background="@drawable/tutee" />
+
+    <TextView
+        android:id="@+id/ttt"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tt"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@+id/areyou"
+        android:text="Tutee"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

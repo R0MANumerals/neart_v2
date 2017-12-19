@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Widget.AppCompat.ButtonBar.AlertDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+    <TextView
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/d"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="A B O U T"
+
+        />
+
+    <Button
+        android:layout_above="@+id/b"
+    android:id="@+id/a"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textSize="20dp"
+    android:text="Help &amp; feedback"
+    />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_above="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="privacy &amp; policy" />
+
+    <Button
+        android:id="@+id/c"
+        android:layout_above="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="Terms of Service" />
+
+    <Button
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="Version"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

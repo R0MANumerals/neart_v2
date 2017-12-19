@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "188270044072",
+    "firebase_url": "https://fir-auth-acf80.firebaseio.com",
+    "project_id": "fir-auth-acf80",
+    "storage_bucket": "fir-auth-acf80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188270044072:android:b4d8d1314ed1ce9b",
+        "android_client_info": {
+          "package_name": "com.neart.romanfeliciano.neart_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188270044072-690o1uhs9cbst5aki2kmlv6jiadjigkl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neart.romanfeliciano.neart_v2",
+            "certificate_hash": "49fc0942740dddf7eb4cdef6f81cd4ae7dab4267"
+          }
+        },
+        {
+          "client_id": "188270044072-ve48km5lt3cjfvucelv3hgsvtvp1imdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8GIJhT_J-c153XIUQjY5Mx_v1ED8CURI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188270044072-ve48km5lt3cjfvucelv3hgsvtvp1imdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

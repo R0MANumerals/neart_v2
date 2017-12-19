@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:id="@+id/relativeLayout">
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="247dp"
+        android:layout_height="256dp"
+       android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:layout_below="@+id/calendarView"
+        android:id="@+id/avail"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Availability" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/relativeLayout"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
